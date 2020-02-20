@@ -5,6 +5,7 @@ Level::Level(sf::RenderWindow* hwnd, Input* in)
 	window = hwnd;
 	input = in;
 
+	camera = window->getView();
 	speed = 100;
 
 	// initialise game objects
